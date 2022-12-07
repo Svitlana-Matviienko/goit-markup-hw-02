@@ -1,4 +1,6 @@
-body {
-    background-color: #666;
-    color: #FFF;
+:root {
+    --background-color: #F5F5F5;
+    --brand-color: #212121;
+    --button-color: #2196F3;
 }
+
