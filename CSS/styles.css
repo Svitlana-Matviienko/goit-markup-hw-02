@@ -4,3 +4,8 @@
     --button-color: #2196F3;
 }
 
+.body {
+    font-family: 'Roboto', sans-serif;
+    background-color:#F5F5F5;
+    color:#212121
+}
