@@ -1,11 +1,53 @@
 :root {
     --background-color: #F5F5F5;
-    --brand-color: #212121;
+    --text-color: #212121;
     --button-color: #2196F3;
 }
 
 .body {
     font-family: 'Roboto', sans-serif;
-    background-color:#F5F5F5;
-    color:#212121
+    background-color:var(--background-color);
+    color: var(--text-color);
+}
+
+.list
+{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Стилі хедер */
+.logo {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #000000;
+text-decoration: none;
+}
+
+.color-logo {
+color: var(--button-color);
+}
+
+.site-nav {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #212121;
+}
+
+.site-nav link.current {
+    color: var(--button-color);
 }
