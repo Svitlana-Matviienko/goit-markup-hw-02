@@ -2,6 +2,8 @@
     --background-color: #F5F5F5;
     --text-color: #212121;
     --button-color: #2196F3;
+    --footer-bgcolor: #2F303A;
+    --light-color: #757575;
 }
 
 .body {
@@ -22,9 +24,9 @@
     color: inherit;
 }
 
-/* Стилі хедер */
+/* Стилі header */
 .logo {
-    font-family: 'Raleway';
+font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
@@ -38,16 +40,79 @@ text-decoration: none;
 color: var(--button-color);
 }
 
-.site-nav {
-font-family: 'Roboto';
+.site-nav .link {
+color: var(--text-color);
+ont-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+color: var(--button-color);
+}
+
+.contacts .link {
+color: var(--light-color);
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
-color: #212121;
+    }
+    
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--button-color);
+    }
+
+    /* Стилі main */
+.main-section {
+    background-color: var(--footer-bgcolor);
 }
 
-.site-nav link.current {
-    color: var(--button-color);
+.main-text {
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.main-button {
+    background-color: var(--button-color);
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.invisible-title {
+    visibility: hidden;
+}
+
+.about-studio {
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--text-color);
+}
+
+.text-about {
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: var(--light-color);
 }
