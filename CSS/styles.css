@@ -27,10 +27,9 @@
 /* Стилі header */
 .logo {
 font-family: 'Raleway';
-font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 0,8;
 letter-spacing: 0.03em;
 color: #000000;
 text-decoration: none;
@@ -41,11 +40,11 @@ color: var(--button-color);
 }
 
 .site-nav .link {
+cursor: pointer; 
 color: var(--text-color);
-ont-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 0,9;
 letter-spacing: 0.02em;
 }
 
@@ -55,11 +54,11 @@ color: var(--button-color);
 }
 
 .contacts .link {
+cursor: pointer;
 color: var(--light-color);
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 0,9;
 letter-spacing: 0.02em;
     }
     
@@ -74,10 +73,9 @@ letter-spacing: 0.02em;
 }
 
 .main-text {
-font-style: normal;
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
+line-height: 0,7;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
@@ -85,11 +83,12 @@ color: #FFFFFF;
 }
 
 .main-button {
+    cursor: pointer;
     background-color: var(--button-color);
     color: #FFFFFF;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 0,5;
     display: flex;
     align-items: center;
     text-align: center;
@@ -103,16 +102,76 @@ color: #FFFFFF;
 .about-studio {
 font-weight: 700;
 font-size: 14px;
-line-height: 16px;
+line-height: 0,9;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--text-color);
 }
 
 .text-about {
-font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 0,6;
 letter-spacing: 0.03em;
 color: var(--light-color);
+}
+
+.work-title, .team-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 0,9;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--text-color);
+}
+
+.team-name {
+font-weight: 500;
+font-size: 16px;
+line-height: 0,8;
+letter-spacing: 0.03em;
+color: var(--text-color);
+}
+
+.team-position {
+font-size: 16px;
+line-height: 0,8;
+letter-spacing: 0.03em;
+color: var(--light-color);
+}
+
+/* Стилі main */
+.footer {
+    background-color: var(--footer-bgcolor);
+}
+
+.footer-address {
+font-size: 14px;
+line-height: 0,6;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+font-style: normal
+}
+
+.footer-contacts {
+font-size: 14px;
+line-height: 0,6;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+/* Стилі Portfolio */
+
+.portfolio-nav-button  {
+cursor: pointer;
+background-color: #F5F4FA;
+color: var(--text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 0,6;
+}
+
+.portfolio-nav-button:hover, 
+.portfolio-nav-button:focus {
+background-color: var(--button-color);
+color: #FFFFFF;
 }
